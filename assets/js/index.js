@@ -17,8 +17,14 @@ console.log(history)
 
 const APIKey = "a70a9011593de90b1ad6d1e297869b75";
 
+var formSubmitHandler = function(event) {
+    event.preventDefault();
+}
+
 function currentWeather(cityName) {
 
     let APIUrl = "https://api.openweathermap.org/data/2.5/weather?q=" + cityName + "&appid=" + APIKey;
 
+    
 }
+
